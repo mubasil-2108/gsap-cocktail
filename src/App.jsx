@@ -1,6 +1,6 @@
 import gsap from "gsap"
 import { ScrollTrigger, SplitText } from "gsap/all"
-import { Aboutus, Art, Cocktails, Hero, Menu, Navbar } from "./components"
+import { Aboutus, Art, Cocktails, Contact, Hero, Menu, Navbar } from "./components"
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 const App = () => {
@@ -12,6 +12,7 @@ const App = () => {
 			<Aboutus />
 			<Art />
 			<Menu />
+			<Contact />
 		</main>
 	)
 }
